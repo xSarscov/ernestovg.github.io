@@ -1,0 +1,104 @@
+body
+{
+    margin: 100px;
+    margin-top: 10px;
+}
+
+.header
+{
+    color: #333;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.pages
+{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+    color: gray;
+}
+
+.section1
+{
+    padding: 30px;
+    background-color: #393e46;
+    border-radius: 15px;
+}
+
+.section1 #title
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 50px;
+}
+
+.section1 #text
+{
+    color: white;
+    font-size: medium;
+}
+
+img
+{
+    width: 650px;
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio, #contact
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hr2
+{
+    width: 80px;
+}
+
+#fb
+{
+    border: none;
+    background: url(./images/logo-FB.png) no-repeat;
+    width: 20px;
+}
+
+.description
+{
+    text-align: center;
+    padding: 70px;
+    background-color: #393e46;
+}
+
+#title, #txt
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.card
+{
+    width: 30%;
+    height: 40%;
+    margin: 15px;
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.card-text
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
